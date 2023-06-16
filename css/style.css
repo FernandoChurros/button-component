@@ -73,7 +73,7 @@
   box-shadow: var(--shadow-primary);
 }
 
-.btn--blue:hover {
+.btn--blue:hover, .btn--blue:focus {
   background-color: var(--primary-hover);
 }
 
@@ -101,7 +101,7 @@
   color: #FFF;
 }
 
-.btn--secondary:hover {
+.btn--secondary:hover, .btn--secondary:focus {
   background-color: var(--hover-secondary);
 }
 
@@ -111,7 +111,7 @@
   color: #FFF;
 }
 
-.btn--danger:hover {
+.btn--danger:hover, .btn--danger:focus {
   background-color: var(--hover-danger);
 }
 
