@@ -1,0 +1,117 @@
+:root {
+  --bg-header: #FAFBFD;
+  --color-default: #E0E0E0;
+  --default-hover: #AEAEAE;
+  --color-primary1: #3D5AFE;
+  --color-primary2: #2962FF;
+  --primary-hover: #0039CB;
+  --shadow-primary: 0px 2px 3px rgba(0, 49, 202, 0.2);
+  --shadow-default: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  --shadow-secondary: 0px 2px 3px rgba(69, 90, 100, 0.2);
+  --color-secondary: #455A64;
+  --hover-secondary: #1C313A;
+  --color-danger: #D32F2F;
+  --hover-danger: #9A0007;
+  --shadow-danger: 0px 2px 3px rgba(211, 47, 47, 0.2);
+}
+
+.body {
+  display: flex;
+}
+
+.header {
+  background-color: var(--bg-header);
+  width: 237px;
+  height: 100vh;
+}
+
+.btn {
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  box-shadow: var(--shadow-default);
+}
+
+.btn--default {
+  background-color: var(--color-default);
+}
+
+.btn--default:hover, .btn--default:focus {
+  background-color: var(--default-hover);
+}
+
+.btn--outline {
+  color: var(--color-primary1);
+  border: 1px solid var(--color-primary1);
+}
+
+.btn--outline:hover, .btn--outline:focus {
+  background-color: #2962FF1A;
+}
+
+.btn--outline.text {
+  border: none;
+}
+
+.disable__shadow {
+  box-shadow: none;
+}
+
+.disabled {
+  background-color: var(--color-default);
+}
+
+.display--text {
+  background-color: transparent;
+}
+
+.btn--blue {
+  background-color: var(--color-primary2);
+  color: #FFF;
+  box-shadow: var(--shadow-primary);
+}
+
+.btn--blue:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn--icon-start > i {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.btn--icon-end > i {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.btn--sm {
+  padding: .25rem .5rem;
+}
+
+.btn--lg {
+  padding: 1rem 2rem;
+}
+
+.btn--secondary {
+  background-color: var(--color-secondary);
+  box-shadow: var(--shadow-secondary);
+  color: #FFF;
+}
+
+.btn--secondary:hover {
+  background-color: var(--hover-secondary);
+}
+
+.btn--danger {
+  background-color: var(--color-danger);
+  box-shadow: var(--shadow-danger);
+  color: #FFF;
+}
+
+.btn--danger:hover {
+  background-color: var(--hover-danger);
+}
+
