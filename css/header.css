@@ -1,0 +1,30 @@
+.header {
+    background-color: var(--bg-header);
+    padding: 3rem .8rem 0 3.5rem;
+    width: 237px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.header__title {
+    font-size: 1rem;
+    margin-bottom: 122px;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.header__logo {
+    width: 30px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.nav__link {
+    color: #9E9E9E;
+    text-decoration: none;
+}
