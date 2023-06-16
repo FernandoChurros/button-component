@@ -19,6 +19,16 @@
   display: flex;
 }
 
+.btn__container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.btn__container.column {
+  flex-flow: column wrap;
+}
+
 .btn {
   padding: .5rem 1rem;
   border-radius: 5px;
