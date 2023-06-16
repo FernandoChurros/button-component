@@ -19,12 +19,6 @@
   display: flex;
 }
 
-.header {
-  background-color: var(--bg-header);
-  width: 237px;
-  height: 100vh;
-}
-
 .btn {
   padding: .5rem 1rem;
   border-radius: 5px;
