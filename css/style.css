@@ -22,11 +22,20 @@
 .btn__container {
   display: flex;
   gap: 1rem;
+  align-items: flex-start;
+}
+
+.btn_container--sizes {
   align-items: center;
 }
 
 .btn__container.column {
   flex-flow: column wrap;
+}
+
+.buttons__title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .btn {
