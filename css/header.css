@@ -4,6 +4,7 @@
     width: 237px;
     height: 100vh;
     box-sizing: border-box;
+    font-family: 'Noto Sans Display', sans-serif;
 }
 
 .header__title {
